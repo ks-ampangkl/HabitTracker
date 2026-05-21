@@ -1,0 +1,143 @@
+/* Background: #F4F6F4 (Soft, non-glare off-white)
+Primary Active/Accent: #2D4A43 (Deep, grounding forest green)
+Muted Text/Gridlines: #8A9A86 (Sage grey for low priority data) */
+
+body{
+    background-color:#f4f6f4;
+}
+.title{
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: 2rem;
+    background-color: #2d4a43;
+    color:white;
+    padding:24px;
+    border-radius: 16px;
+    display:flex;
+    justify-content: center;
+    box-shadow: 1px 3px 5px #8a9a86, 1px 3px 5px #4d564b;
+    border: 2px solid white;
+}
+
+.inputspace{
+    background-color: #f4f6f4;
+    border:1px solid #8a9a86;
+    padding:20px;
+    border-radius: 16px;
+    margin:10px;
+    box-shadow: 1px 2px 3px #4d564b, 2px 4px 6px #545753;
+    position:relative;
+}
+.inputspace .enter{
+    background-color: #D4A373 ;
+    margin:20px;
+    padding: 10px;
+    border-radius: 16px;
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: lighter;
+    font-size: 2rem;
+    display: flex;
+    justify-self: center;
+    border: 2px solid white;
+}
+
+.inputspace .add{
+    position:absolute;
+    right:30px;
+    bottom:10px;
+    padding: 20px;
+    background-color: #1C302B ;
+    color:white;
+    border-radius: 16px;
+
+    text-align: center;
+    font-family: Tahoma;
+    font-weight: lighter;
+    border: 2px solid white;
+    cursor:pointer;
+    display: flex;
+    right: 30px;
+  
+}
+
+
+.inputspace .add:active{
+    background-color: #8a9a86;
+    color:black;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 16px;
+    margin:20px;
+    background-color: #8a9a86;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.card-head{
+    font-family: Tahoma;
+    font-weight: lighter;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    padding: 20px;
+    
+}
+
+.habits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    font-family: Tahoma;
+    border-radius: 16px;
+    padding:30px;
+    font-weight: bold;
+    margin:10px;
+    
+
+
+}
+
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+}
+
+.block{
+    padding:50px;
+    border:1px solid black;
+    border-radius: 16px;
+    background-color: #8a9a86;
+        font-family: Calibri;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.button{
+    padding:20px;
+    border:1px solid black;
+    border-radius: 16px;
+    background-color: #D4A373 ;
+    font-family: Calibri;
+    font-size: 1.5em;
+    font-weight: bolder;
+    cursor:pointer;
+    
+}
+
+.button:active{
+    background-color: lightblue;
+}
